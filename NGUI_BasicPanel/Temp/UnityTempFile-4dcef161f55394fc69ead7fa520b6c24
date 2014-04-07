@@ -133,6 +133,7 @@
 'Assets/NGUI/Scripts/Internal/UIRect.cs'
 'Assets/NGUI/Scripts/Internal/UIWidget.cs'
 'Assets/NGUI/Scripts/JimScripts/CloseWindow.cs'
+'Assets/NGUI/Scripts/JimScripts/SetTXTOpacity.cs'
 'Assets/NGUI/Scripts/Tweening/AnimatedAlpha.cs'
 'Assets/NGUI/Scripts/Tweening/AnimatedColor.cs'
 'Assets/NGUI/Scripts/Tweening/SpringPosition.cs'

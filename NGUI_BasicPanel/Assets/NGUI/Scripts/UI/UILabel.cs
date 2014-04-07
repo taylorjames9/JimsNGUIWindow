@@ -1576,7 +1576,23 @@ public class UILabel : UIWidget
 	{
 		if (UIProgressBar.current != null)
 			text = Mathf.RoundToInt(UIProgressBar.current.value * 100f) + "%";
+	//print ("UIProgressBar.current.value " + UIProgressBar.current.value);
 	}
+
+/*public void SetLabelAlpha ()
+{
+	if (UIProgressBar.current != null) {
+	//UILabel lbl = GetComponent<UILabel> ();
+	//Color tempColor = color;
+	//color.a = UIProgressBar.current.value;
+	mGradientTop.a = UIProgressBar.current.value;
+	mGradientBottom.a = UIProgressBar.current.value;
+
+			print ("mGradientTop.a " + mGradientTop.a);
+	//tempColor.a = UIProgressBar.current.value;
+	//tempColor.a = UIProgressBar.current.value;
+	}
+}*/
 
 	/// <summary>
 	/// Convenience function, in case you wanted to automatically set some label's text
